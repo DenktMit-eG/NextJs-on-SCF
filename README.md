@@ -23,6 +23,6 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Deploy on SCF
 
-Run `cf push nextjs-scf1 -b https://github.com/cloudfoundry/nodejs-buildpack`
+Run `cf push nextjs-scf1`
 
 Works.

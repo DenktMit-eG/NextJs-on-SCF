@@ -9,7 +9,7 @@
     "lint": "eslint"
   },
   "engines": {
-    "node": "25.2.x",
+    "node": "24.10.x",
     "npm": "11.6.x"
   },
   "dependencies": {
