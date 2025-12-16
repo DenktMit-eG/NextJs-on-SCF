@@ -5,8 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start --port ${PORT-3000}",
     "lint": "eslint"
+  },
+  "engines": {
+    "node": "25.2.x",
+    "npm": "11.6.x"
   },
   "dependencies": {
     "next": "16.0.10",
